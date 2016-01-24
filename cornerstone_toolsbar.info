@@ -1,0 +1,9 @@
+name  = "Cornerstone Toolsbar"
+description =  "Toolsbar"
+dependencies[] =  "special_menu_items"
+
+; Information added by Gary Guo packaging script on 2015-9-19 七七前夕
+version = "7.x-1.2"
+core = "7.x"
+project = "cornerstone_toolsbar"
+package =  "administration"

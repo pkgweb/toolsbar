@@ -1,0 +1,243 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?4nl31o');
+	src:url('../fonts/icomoon.eot?#iefix4nl31o') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?4nl31o') format('truetype'),
+		url('../fonts/icomoon.woff?4nl31o') format('woff'),
+		url('../fonts/icomoon.svg?4nl31o#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	speak: none;
+    font: 14px/1.5 'icomoon',"Helvetica Neue",Helvetica,Arial;
+	text-transform: none;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-big{font-size: 20px;}
+.icon-home:before {
+	content: "\e600";
+}
+.icon-newspaper:before {
+	content: "\e601";
+}
+.icon-pencil:before {
+	content: "\e602";
+}
+.icon-quill:before {
+	content: "\e62b";
+}
+.icon-image:before {
+	content: "\e603";
+}
+.icon-images:before {
+	content: "\e604";
+}
+.icon-film:before {
+	content: "\e605";
+}
+.icon-bullhorn:before {
+	content: "\e62c";
+}
+.icon-book:before {
+	content: "\e606";
+}
+.icon-books:before {
+	content: "\e607";
+}
+.icon-library:before {
+	content: "\e608";
+}
+.icon-file-text:before {
+	content: "\e609";
+}
+.icon-profile:before {
+	content: "\e60a";
+}
+.icon-file-empty:before {
+	content: "\e60b";
+}
+.icon-files-empty:before {
+	content: "\e60c";
+}
+.icon-file-text2:before {
+	content: "\e60d";
+}
+.icon-copy:before {
+	content: "\e62d";
+}
+.icon-paste:before {
+	content: "\e60e";
+}
+.icon-stack:before {
+	content: "\e60f";
+}
+.icon-folder:before {
+	content: "\e62e";
+}
+.icon-folder-open:before {
+	content: "\e62f";
+}
+.icon-barcode:before {
+	content: "\e630";
+}
+.icon-qrcode:before {
+	content: "\e631";
+}
+.icon-cart:before {
+	content: "\e632";
+}
+.icon-credit-card:before {
+	content: "\e633";
+}
+.icon-phone:before {
+	content: "\e610";
+}
+.icon-address-book:before {
+	content: "\e611";
+}
+.icon-envelop:before {
+	content: "\e612";
+}
+.icon-alarm:before {
+	content: "\e634";
+}
+.icon-bell:before {
+	content: "\e635";
+}
+.icon-calendar:before {
+	content: "\e636";
+}
+.icon-database:before {
+	content: "\e637";
+}
+.icon-users:before {
+	content: "\e613";
+}
+.icon-user-tie:before {
+	content: "\e614";
+}
+.icon-enlarge:before {
+	content: "\e638";
+}
+.icon-enlarge2:before {
+	content: "\e639";
+}
+.icon-shrink2:before {
+	content: "\e63a";
+}
+.icon-key:before {
+	content: "\e615";
+}
+.icon-wrench:before {
+	content: "\e63b";
+}
+.icon-equalizer:before {
+	content: "\e616";
+}
+.icon-equalizer2:before {
+	content: "\e617";
+}
+.icon-cog:before {
+	content: "\e618";
+}
+.icon-cogs:before {
+	content: "\e619";
+}
+.icon-hammer:before {
+	content: "\e61a";
+}
+.icon-bug:before {
+	content: "\e63c";
+}
+.icon-pie-chart:before {
+	content: "\e61b";
+}
+.icon-stats-dots:before {
+	content: "\e61c";
+}
+.icon-stats-bars:before {
+	content: "\e61d";
+}
+.icon-gift:before {
+	content: "\e61e";
+}
+.icon-meter:before {
+	content: "\e61f";
+}
+.icon-lab:before {
+	content: "\e620";
+}
+.icon-briefcase:before {
+	content: "\e621";
+}
+.icon-switch:before {
+	content: "\e622";
+}
+.icon-list2:before {
+	content: "\e623";
+}
+.icon-tree:before {
+	content: "\e624";
+}
+.icon-download2:before {
+	content: "\e625";
+}
+.icon-earth:before {
+	content: "\e626";
+}
+.icon-flag:before {
+	content: "\e627";
+}
+.icon-warning:before {
+	content: "\e63d";
+}
+.icon-plus:before {
+	content: "\e63e";
+}
+.icon-minus:before {
+	content: "\e63f";
+}
+.icon-info:before {
+	content: "\e640";
+}
+.icon-cross:before {
+	content: "\e641";
+}
+.icon-checkmark:before {
+	content: "\e642";
+}
+.icon-enter:before {
+	content: "\e628";
+}
+.icon-exit:before {
+	content: "\e629";
+}
+.icon-circle-up:before {
+	content: "\e643";
+}
+.icon-circle-right:before {
+	content: "\e644";
+}
+.icon-circle-down:before {
+	content: "\e645";
+}
+.icon-circle-left:before {
+	content: "\e646";
+}
+.icon-ctrl:before {
+	content: "\e649";
+}
+.icon-table:before {
+	content: "\e647";
+}
+.icon-table2:before {
+	content: "\e648";
+}
+.icon-terminal:before {
+	content: "\e62a";
+}
