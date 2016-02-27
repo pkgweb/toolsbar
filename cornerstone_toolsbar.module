@@ -45,9 +45,16 @@ function cornerstone_toolsbar_page_alter(&$page) {
 		$navtools = drupal_render($main_menu_tree);
 		//$navtools = '<div id="navtools">' . $navtools . '</div>';
 
-		global $user;
+	global $user;
+	
+	if (in_array('administrator', $user->roles)) {
+		$adminif = 'class="isadmin"';
+	}else{
+		$adminif = '';
+	}
+
 		$output = '';
-		$output .= '<div id="cornerstone-tools">';
+		$output .= '<div id="cornerstone-tools" ' . $adminif . '>';
 		$output .= '  <div class="profile-menu">';
 		$output .= '    <a href="">';
 		$output .= '      <div class="profile-pic"></div>';
