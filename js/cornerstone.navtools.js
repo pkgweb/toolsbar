@@ -5,16 +5,16 @@ $(document).ready(function(){
         return false;
     });
 
-    $("#navtools .expanded").click(function(){
+    $("#navtools .expanded > a").click(function(){
     	$(this).toggleClass( "toggled");
         return false;
     });
 
-    $(".dropdown-menu li").on('click', 'a', function(e){ 
-    e.preventDefault(); 
-    var url = $(this).attr('href'); 
-    window.open(url, '_blank');
-	});
+ //   $(".dropdown-menu li").on('click', 'a', function(e){ 
+ //   e.preventDefault(); 
+ //   var url = $(this).attr('href'); 
+ //   window.open(url, '_blank');
+	// });
 
  });
 })(window, document, jQuery);
