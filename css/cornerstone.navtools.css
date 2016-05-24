@@ -196,12 +196,11 @@ a .profile-info {
     margin-right: 10px;
 }
 #cornerstone-tools .separator {
-    margin-top: -27px;
+    margin-top: -20px;
     padding: 0;
-    height: 1px;
 }
 #cornerstone-tools hr {
-    border: 1px solid rgba(6, 6, 6, 0.41);
+     border-bottom: 1px solid rgba(6, 6, 6, 0.41);
 }
 @media (max-width: 1280px) {
     html body {
