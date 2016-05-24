@@ -1,153 +1,166 @@
 /*!
  * Cornerstone Tools v2.0.1
  */
- html body{padding-right: 267px;}
+
+html body {
+    padding-right: 267px;
+}
 /*.overlay-open body{padding-right:0;}
 .overlay #cornerstone-tools{display: none;}*/
 
-#cornerstone-tools{
-  position: fixed;
-  top: 31px;right: 0;
-  background: rgba(255,255,255,.8); 
-  box-shadow: 0 0 10px rgba(51, 51, 51, 0.38);
-  height: calc(100% - 1px);
-  z-index: 99;
-  width: 268px;
-  overflow: hidden;
-/*  opacity: 0;
+#cornerstone-tools {
+    position: fixed;
+    top: 31px;
+    right: 0;
+    background: rgba(255, 255, 255, .8);
+    box-shadow: 0 0 10px rgba(51, 51, 51, 0.38);
+    height: calc(100% - 1px);
+    z-index: 99;
+    width: 268px;
+    overflow: hidden;
+    /*  opacity: 0;
   filter: alpha(opacity=0);*/
-  -webkit-transition: all;
-  -o-transition: all;
-  transition: all;
-  -webkit-transition-duration: 300ms;
-  transition-duration: 300ms;
-  font: 14px/1.5 'icomoon',"Helvetica Neue",Helvetica,Arial;
+    
+    -webkit-transition: all;
+    -o-transition: all;
+    transition: all;
+    -webkit-transition-duration: 300ms;
+    transition-duration: 300ms;
+    font: 14px/1.5 'icomoon', "Helvetica Neue", Helvetica, Arial;
 }
-
-#cornerstone-tools a{
-position: relative;
-display: block;
-text-decoration: none;
-color: #4C4C4C;
-text-align: left;
+#cornerstone-tools a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: #4C4C4C;
+    text-align: left;
 }
-#cornerstone-tools li a{padding: 10px 15px;}
-#cornerstone-tools li a:hover{background: #fff;}
-
-.profile-pic{
-	height: 72px;
+#cornerstone-tools li a {
+    padding: 10px 15px;
 }
-.profile-menu{  
-  display: block;
-  margin-bottom: 5px;
-  width: 100%;
-  background: url(../img/bg.png) no-repeat 50% 50%;
-  background-size: cover;
+#cornerstone-tools li a:hover {
+    background: #fff;
 }
-
-a .profile-info{
-	background: rgba(0, 0, 0, 0.37);
-	padding: 7px 14px;
-	color: #fff;
-	margin-top: 20px;
-	position: relative;}
-
+.profile-pic {
+    height: 72px;
+}
+.profile-menu {
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    background: url(../img/bg.png) no-repeat 50% 50%;
+    background-size: cover;
+}
+a .profile-info {
+    background: rgba(0, 0, 0, 0.37);
+    padding: 7px 14px;
+    color: #fff;
+    margin-top: 20px;
+    position: relative;
+}
 #cornerstone-tools li.active > a {
-   color: #262626;  
-   background-color: #F4F4F4; 
+    color: #262626;
+    background-color: #F4F4F4;
 }
-
 #cornerstone-tools ul {
-  margin: 0;
-  padding-left: 0;
-  list-style: none;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
 }
-
-#cornerstone-tools .menu ul a{
-	color: #7f7f7f;
-  padding: 8px 20px 8px 40px;
-  font-weight: 500;
-  display: block;
+#cornerstone-tools .menu ul a {
+    color: #7f7f7f;
+    padding: 8px 20px 8px 40px;
+    font-weight: 500;
+    display: block;
 }
-#cornerstone-tools .menu ul a:hover,#cornerstone-tools a:hover{
-	color: #000;
-  text-decoration: none;
+#cornerstone-tools .menu ul a:hover,
+#cornerstone-tools a:hover {
+    color: #000;
+    text-decoration: none;
 }
-
-#cornerstone-tools span.nolink{padding: 10px 15px;}
-
-.sub-menu a:after{
-	font:300 12px/1em 'icomoon';
-	position: absolute;
-  right: 10px;
-  top: 14px;
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
+#cornerstone-tools span.nolink {
+    padding: 10px 15px;
 }
-.sub-menu a:after{content: "\e63e";}
+.sub-menu a:after {
+    font: 300 12px/1em 'icomoon';
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.sub-menu a:after {
+    content: "\e63e";
+}
 /*li.toggled a:after{content: "\e63f";}*/
 
-#cornerstone-tools a:before{ margin-right: 11px;}
-
-.menu i:before{	margin-right: 7px;}
-
-#cornerstone-tools .caret,#navtools .expanded > a:after {
-  content: "";
-  display: inline-block;
-  width: 0;
-  height: 0;
-  margin-left: 2px;
-  vertical-align: middle;
-  border-top: 4px dashed;
-  border-right: 4px solid transparent;
-  border-left: 4px solid transparent;
-  float: right;
-  margin-top: 8px;
-  transition: all;
-  -webkit-transition-duration: 300ms;
-  transition-duration: 300ms;
+#cornerstone-tools a:before {
+    margin-right: 11px;
 }
-
+.menu i:before {
+    margin-right: 7px;
+}
+#cornerstone-tools .caret,
+#navtools .expanded > a:after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    float: right;
+    margin-top: 8px;
+    transition: all;
+    -webkit-transition-duration: 300ms;
+    transition-duration: 300ms;
+}
 #cornerstone-tools .toggled .caret,
-#navtools .toggled > a:after{
-  -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
+#navtools .toggled > a:after {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
-#navtools li{
-  margin: 0;
-  padding:0;
+#navtools li {
+    margin: 0;
+    padding: 0;
 }
 .profile-menu .menu,
 #navtools ul ul {
-  position: relative;
-  float: none;
-	max-height: 0;
-  margin: 0;
-	overflow: hidden; 
-	transition: max-height 0.8s;
-	-webkit-transition: max-height 0.8s;
-	-moz-transition: max-height 0.8s;
-	border:none;
-  border-radius: 0;
-  background-color: #fbfbfb;
-  box-shadow: none;
- box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.15) inset, 0 -4px 4px -2px rgba(0, 0, 0, 0.15) inset; 
+    position: relative;
+    float: none;
+    max-height: 0;
+    margin: 0;
+    overflow: hidden;
+    transition: max-height 0.8s;
+    -webkit-transition: max-height 0.8s;
+    -moz-transition: max-height 0.8s;
+    border: none;
+    border-radius: 0;
+    background-color: #fbfbfb;
+    box-shadow: none;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.15) inset, 0 -4px 4px -2px rgba(0, 0, 0, 0.15) inset;
 }
-#cornerstone-tools .toggled ul{
-	max-height: 200px;
-  display: block;
-
+#cornerstone-tools .toggled ul {
+    max-height: 200px;
+    display: block;
 }
-#cornerstone-tools .menu .open>a:hover, #cornerstone-tools .menu .open>a:focus{
-  background: none;
+#cornerstone-tools .menu .open>a:hover,
+#cornerstone-tools .menu .open>a:focus {
+    background: none;
 }
-#navtools .caret{display: none;}
-
-#navtools .expanded{cursor: pointer;}
-#navtools ul ul li{position: relative;}
-
+#navtools .caret {
+    display: none;
+}
+#navtools .expanded {
+    cursor: pointer;
+}
+#navtools ul ul li {
+    position: relative;
+}
 #navtools ul ul:before {
     content: "";
     display: block;
@@ -170,26 +183,46 @@ a .profile-info{
     border: 1px solid #e2e2e2;
     z-index: 2;
 }
-#navtools ul ul a:hover:before{
-  border: 1px solid #000;
+#navtools ul ul a:hover:before {
+    border: 1px solid #000;
 }
-#navtools-setup{margin-top: 50px;  padding:0 10px;text-align: right;}
-#navtools-setup a{ display: inline-block;margin-right: 10px; }
-#cornerstone-tools .separator{
-margin-top: -27px;
+#navtools-setup {
+    margin-top: 50px;
+    padding: 0 10px;
+    text-align: right;
+}
+#navtools-setup a {
+    display: inline-block;
+    margin-right: 10px;
+}
+#cornerstone-tools .separator {
+    margin-top: -27px;
     padding: 0;
     height: 1px;
 }
-#cornerstone-tools hr{
-	border: 1px solid rgba(6, 6, 6, 0.41);
+#cornerstone-tools hr {
+    border: 1px solid rgba(6, 6, 6, 0.41);
 }
-@media (max-width: 1280px){
-  html body{padding-right: 150px;}
-  #cornerstone-tools{width: 150px;}
-  #navtools li a{padding:3px 5px;}
-  #navtools li a:before {margin-right: 5px;}
-  #cornerstone-tools .menu ul a{padding: 5px 0 5px 27px;}
-  #navtools ul ul:before{left: 13px;}
-  #navtools ul ul a:before{left: 11px;}
+@media (max-width: 1280px) {
+    html body {
+        padding-right: 150px;
+    }
+    #cornerstone-tools {
+        width: 150px;
+    }
+    #navtools li a {
+        padding: 3px 5px;
+    }
+    #navtools li a:before {
+        margin-right: 5px;
+    }
+    #cornerstone-tools .menu ul a {
+        padding: 5px 0 5px 27px;
+    }
+    #navtools ul ul:before {
+        left: 13px;
+    }
+    #navtools ul ul a:before {
+        left: 11px;
+    }
 }
-
