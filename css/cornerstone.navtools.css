@@ -175,6 +175,14 @@ a .profile-info{
 }
 #navtools-setup{margin-top: 50px;  padding:0 10px;text-align: right;}
 #navtools-setup a{ display: inline-block;margin-right: 10px; }
+#cornerstone-tools .separator{
+margin-top: -27px;
+    padding: 0;
+    height: 1px;
+}
+#cornerstone-tools hr{
+	border: 1px solid rgba(6, 6, 6, 0.41);
+}
 @media (max-width: 1280px){
   html body{padding-right: 150px;}
   #cornerstone-tools{width: 150px;}
@@ -184,3 +192,4 @@ a .profile-info{
   #navtools ul ul:before{left: 13px;}
   #navtools ul ul a:before{left: 11px;}
 }
+
