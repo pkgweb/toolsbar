@@ -20,7 +20,7 @@ html body {
     overflow: hidden;
     /*  opacity: 0;
   filter: alpha(opacity=0);*/
-    
+    #navtools li
     -webkit-transition: all;
     -o-transition: all;
     transition: all;
@@ -127,6 +127,8 @@ a .profile-info {
 #navtools li {
     margin: 0;
     padding: 0;
+    height: auto;
+    display: block;
 }
 .profile-menu .menu,
 #navtools ul ul {
