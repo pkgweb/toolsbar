@@ -5,16 +5,10 @@ $(document).ready(function(){
         return false;
     });
 
-    $("#navtools .expanded ").click(function(){
-    	$(this).toggleClass( "toggled");
+    $("#navtools .expanded > a ").click(function(){
+    	$(this).parent().toggleClass( "toggled");
         return false;
     });
-
-    $(".dropdown-menu li").on('click', 'a', function(e){ 
-    e.preventDefault(); 
-    var url = $(this).attr('href'); 
-    window.open(url, '_blank','toolbar=no, scrollbars=no, resizable=no');
-	});
 
  });
 })(window, document, jQuery);
